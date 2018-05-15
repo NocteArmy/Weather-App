@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100);
+
+.jumbotron-fluid {
+  background: #EDF2F4;
+  padding: 100px 0;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+p {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 100;
+}
+h1 ~ p {
+  margin-bottom: 0;
+}
+.title {
+  font-weight: 700;
+  text-align: center;
+}
+.main-content {
+  border: 2px solid #8D99AE;
+  text-align: center;
+  padding-top: 10px;
+}
+.temp-section {
+  margin: 10px 0;
+}
+.btn-dark {
+  color: #c18934;
+  background: #2B2D42;
+}
+#temperature  {
+  display: inline;
+  vertical-align: -0.25em;
+  padding-right: 10px;
+}
+#weather-icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+}
