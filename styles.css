@@ -1,7 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:100);
 
 .jumbotron-fluid {
-  background: #EDF2F4;
+  background-color: rgb(33, 31, 31);
+  color: rgb(242, 242, 242);
   padding: 100px 0;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -16,21 +17,26 @@ p {
 h1 ~ p {
   margin-bottom: 0;
 }
+h1 + p {
+  margin-bottom: 50px;
+}
 .title {
   font-weight: 700;
   text-align: center;
 }
 .main-content {
-  border: 2px solid #8D99AE;
+  background-color: #EDF2F4;
+  color: rgb(50, 50, 50);
+  border: 1px solid #8D99AE;
   text-align: center;
-  padding-top: 10px;
+  padding-top: 25px;
 }
 .temp-section {
-  margin: 10px 0;
+  margin: 15px 0;
 }
 .btn-dark {
-  color: #c18934;
-  background: #2B2D42;
+  background-color: rgb(33, 31, 31);
+  color: rgb(242, 242, 242);
 }
 #temperature  {
   display: inline;
